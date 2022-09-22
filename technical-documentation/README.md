@@ -6,4 +6,4 @@ This is one of the project from FreeCodeCamp build using css and HTML.
 
 
 Click the link below to view the page :
-https://nonoza.github.io/technical-documentation/
+https://nonoza.github.io/FreeCodeCamp/technical-documentation/
