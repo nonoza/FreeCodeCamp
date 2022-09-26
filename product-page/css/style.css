@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,100&display=swap');
+@font-face {
+font-family: 'Athelas Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Athelas Italic'), url('Athelas-Italic.woff') format('woff');
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+overflow-x: hidden;
+font-family: 'Montserrat', sans-serif;
+}
+/* style the menu when click the icon*/
+#background {
+    background: url("../images/bg.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+p.conpyright-text {
+position: relative;
+top: 12px;
+}
+.description-2 {
+margin-left: 110px;
+position: relative;
+bottom: 350px;
+font-family: 'Montserrat', sans-serif;
+font-size: 11px;
+}
+section.emailer {
+text-align: center;
+background: #9e8f67;
+padding: 81px;
+margin-top: -170px;
+}   
+section.copyright {
+background: #000;
+color: #fff;
+text-align: center;
+height: 36px;
+}
+.image1 {
+width: 100%;
+margin-left: 71px;
+}
+img.logo {
+margin-left: 162px;
+bottom: 110px;
+position: relative;
+width: 58%;
+}
+p.sub-heading, p.dots {
+margin-left: 22px;
+position: relative;
+bottom: 246px;
+font-family: 'Athelas Italic';
+font-size: 35px;
+text-align: center;
+letter-spacing: 8px;
+}
+h1.heading{
+color: #9e8f67;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+margin-left: 108px;
+position: relative;
+bottom: 220px;
+}
+img.product-image {
+width: 100%;
+}
+.row.productlist {
+margin-left: 158px;
+padding-top: 100px;
+}
+.heading-2 {
+text-align: center;
+padding-top: 95px;
+}
+label.newsletter {
+font-size: 50px;
+color: #fff;
+}
+
+label.sign-up-newsletter {
+font-size: 30px;
+color: #fff;
+}
+section a {
+color: #9e8f67;
+text-decoration: none;
+}
+section a:hover {
+color: #9e8f67;
+text-decoration: none;
+}
+label {
+    margin-bottom: 12px;
+}
+input {
+border: 0;
+border-radius: 30px;
+width: 30%;
+height: 50px;
+}
+a.btn.sign-up-btn {
+background: #000;
+color: #9e8f67;
+margin-top: 30px;
+width: 30%;
+padding: 15px;
+border-radius: 40px;
+}
+.icon-2{
+margin-left: 162px;
+bottom: 300px;
+position: relative;
+width: 58%;
+}
+h2.product-title {
+font-size: 23px;
+margin-top: 13px;
+color: #9e8f67;
+font-weight: 600;
+}
+a.buy-now-button {
+background: #9E8F64;
+padding: 10px;
+color: #fff;
+}
+h1.prod-heading-1 {
+color: #9e8f67;
+}
+a.buy-now-button:hover {
+color: #ffffff;
+}
+input::placeholder{
+margin-left: 30px;
+color:#000;
+}
+.box {
+    border: 1px solid #9E8F64;
+    width: 300px;
+    height: 330px;
+    text-align: center;
+    margin: auto;
+}
+.price p {
+    margin: 0;
+    font-size: 4rem;
+    color: #9E8F64;
+}
+.price-intro ul li {
+    list-style: none;
+    text-align: center;
+}
+.price-heading h2 {
+background: #9E8F64;
+color: #fff;
+}
+.price-btn {
+    width: 71%;
+    background: #9E8F64;
+    padding: 3%;
+    margin: auto;
+    
+}
+.price-btn:hover {
+    width: 71%;
+    background: #fff;
+    padding: 3%;
+    margin: auto;
+    color: #9E8F64;
+    border: 1px solid #9E8F64;
+    
+}
+.price-btn  a {
+    color: #fff;
+}
+
+section.pricelist-section {
+    padding-top: 12%;
+    margin-bottom: 12%;
+}
+ol, ul {
+    margin-left: 0;
+    padding: 0;
+}
+@media screen and (max-width:760px) {
+    .icon-2 {
+width: 100%;
+margin-left: 0;
+    }
+    .image1 {
+        position: relative;
+        bottom: 334px;
+        }
+        .description-2 {
+        margin-left: 0px;
+        position: relative;
+        bottom: 336px;
+        text-align: center;
+        font-size: 20px;
+        }
+      
+        p.sub-heading, p.dots {
+        margin-left: 0px;
+        position: relative;
+        bottom: 246px;
+        font-size: 20px;
+        
+        }
+        h1.heading {
+        color: #9e8f67;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 3px;
+        margin-left: 57px;
+        position: relative;
+        bottom: 225px;
+        font-size: 37px;
+        text-align: center;
+        }
+        img.logo {
+        margin-left: 0px;
+        bottom: 129px;
+        position: relative;
+        width: 100%;
+        }
+        input{
+            width: 100%;
+        }
+        a.btn.sign-up-btn{
+            width: 100%;
+        }
+        .row.productlist {
+        margin-left: -12px;
+        }
+        .col-md-5 {
+        margin-top: 30px;
+        }
+        section.emailer {
+            padding: 44px;  
+        }
+        label.newsletter {
+            font-size: 25px;
+        }
+}
